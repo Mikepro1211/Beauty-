@@ -9,3 +9,9 @@ Creación de Aplicación Movíl  "Beauty" desarrollada para salon de belleza bea
 # Guia de instalación :open_file_folder:
 # Herramientas :wrench:
 # Enlaces de Intéres  :key:
+- Enlace de tablero de Trello 
+ 
+  https://trello.com/invite/b/MmVAqVkO/2974fa2b2db6c88f59082325f271db35/beauty-app
+- Enlace de carpeta drive que contiene diagramas UML
+ 
+  https://drive.google.com/drive/folders/1pbQ2UKZgVdigkeF5-r388GuJ4LtLSHk7?usp=sharing
