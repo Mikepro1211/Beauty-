@@ -15,3 +15,8 @@ Creación de Aplicación Movíl  "Beauty" desarrollada para salon de belleza bea
 - Enlace de carpeta drive que contiene diagramas UML
  
   https://drive.google.com/drive/folders/1pbQ2UKZgVdigkeF5-r388GuJ4LtLSHk7?usp=sharing
+  
+- Enlace de mockups realizado  en figma
+  
+  
+  https://www.figma.com/file/IK0WjyFwVtvl2FZoNAjafg/Untitled?node-id=0%3A1
