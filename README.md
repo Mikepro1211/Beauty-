@@ -20,3 +20,8 @@ Creación de Aplicación Movíl  "Beauty" desarrollada para salon de belleza bea
   
   
   https://www.figma.com/file/IK0WjyFwVtvl2FZoNAjafg/Untitled?node-id=0%3A1
+  
+ - Enlace carpeta drive que contiene Cotizacion 
+  
+  
+   https://drive.google.com/file/d/1D1wFKEmg6tkM2fNpxdhTPy0qAoBguPwa/view?usp=sharing
