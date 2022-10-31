@@ -4,10 +4,27 @@ Creación de Aplicación Movíl  "Beauty" desarrollada para salon de belleza bea
 - Jared Jazer Romero Orellana.     RO201303.
 - Miguel Alexander Peréz Ramírez   PR222602.
 #
-# Licencia :page_facing_up: 
-# Pre-requisitos de instalación :scroll:
+# Licencia :page_facing_up:
+  Licencia Creative Commons
+  Esta obra está bajo una Licencia Creative Commons Atribución-NoComercial 4.0 Internacional.
 # Guia de instalación :open_file_folder:
+  - Clonar Repositorio  en su ordenador 
+  
+  - contar  con IDE - Android Studio 
+  
+  - Tener dispositivo fisico  o virtual opcional (opcional poder realizar las pruebas directamente en un dispositivo  fisico mediante conección WIFI o USB
+    o si desea instalar el APK)
+  
+  - Una vez ejecutado a realizar pruebas en la APP  
 # Herramientas :wrench:
+  - Android Studio 
+  
+  - Trello  
+  
+  - Figma 
+  
+  - Lenguaje de Programacion  Kotlin  (diferentes layouts y complementos)
+  
 # Enlaces de Intéres  :key:
 - Enlace de tablero de Trello 
  
