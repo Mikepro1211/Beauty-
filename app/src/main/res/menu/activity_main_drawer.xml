@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/nav_item_one"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Servicio"/>
+        <item android:id="@+id/nav_item_two"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Cita"/>
+        <item android:id="@+id/nav_item_three"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Sucursales"/>
+        <item android:id="@+id/nav_item_fourth"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Productos"/>
+        <item android:id="@+id/prueba"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Facturacion"/>
+
+    </group>
+
+</menu>
