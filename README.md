@@ -42,3 +42,7 @@ Creación de Aplicación Movíl  "Beauty" desarrollada para salon de belleza bea
   
   
    https://drive.google.com/file/d/1D1wFKEmg6tkM2fNpxdhTPy0qAoBguPwa/view?usp=sharing
+
+ - Enlace carpeta drive que contiene documento final
+  
+   https://drive.google.com/file/d/1DXwPtOea4teSRJ6nSh-7EQxtVFtdwvtD/view?usp=sharing
