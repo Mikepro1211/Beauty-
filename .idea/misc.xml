@@ -5,13 +5,17 @@
       <map>
         <entry key="..\:/BeautyApp/app/src/main/res/layout-w1240dp/activity_login2.xml" value="0.1015625" />
         <entry key="..\:/BeautyApp/app/src/main/res/layout-w936dp/activity_login2.xml" value="0.153125" />
+        <entry key="..\:/BeautyApp/app/src/main/res/layout/activity_facturacion.xml" value="0.33" />
         <entry key="..\:/BeautyApp/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/BeautyApp/app/src/main/res/layout/activity_login2.xml" value="0.25" />
-        <entry key="..\:/BeautyApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/BeautyApp/app/src/main/res/layout/activity_registrar_cita.xml" value="0.1" />
+        <entry key="..\:/BeautyApp/app/src/main/res/layout/activity_main.xml" value="0.3072916666666667" />
+        <entry key="..\:/BeautyApp/app/src/main/res/layout/activity_productos.xml" value="0.2021978021978022" />
+        <entry key="..\:/BeautyApp/app/src/main/res/layout/activity_registrar_cita.xml" value="0.33" />
         <entry key="..\:/BeautyApp/app/src/main/res/layout/activity_registro.xml" value="0.22" />
         <entry key="..\:/BeautyApp/app/src/main/res/layout/activity_splash.xml" value="0.22" />
+        <entry key="..\:/BeautyApp/app/src/main/res/layout/activity_sucursale.xml" value="0.25" />
         <entry key="..\:/BeautyApp/app/src/main/res/layout/app_bar_main.xml" value="0.22" />
+        <entry key="..\:/BeautyApp/app/src/main/res/layout/confirmacioncita.xml" value="0.25" />
         <entry key="..\:/BeautyApp/app/src/main/res/layout/nav_header_main.xml" value="0.22" />
         <entry key="..\:/BeautyApp/app/src/main/res/menu/activity_main_drawer.xml" value="0.33" />
       </map>

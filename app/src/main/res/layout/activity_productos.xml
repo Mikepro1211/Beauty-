@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context=".Productos"
+    tools:openDrawer="start"
+    >
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="55dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/productos"
+                android:layout_width="116dp"
+                android:layout_height="28dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="137dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="53dp"
+                android:textSize="20dp"
+                android:text="Productos"
+                android:gravity="center_horizontal|top"
+                android:textColor="@color/beautyappColor"
+                />
+
+            <!---->
+            <!--Primer Producto-->
+            <ImageView
+                android:id="@+id/rectangle_5"
+                android:layout_width="173dp"
+                android:layout_height="169dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="25dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="145dp"
+                android:background="@drawable/shampoo">
+
+            </ImageView>
+
+            <!-- Shampoo -->
+            <TextView
+                android:id="@+id/shampoo"
+                android:layout_width="67dp"
+                android:layout_height="18dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="66dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="327dp"
+                android:text="Shampoo"
+                android:gravity="center_horizontal|top"
+                />
+            <!--Segundo Producto-->
+            <ImageView
+                android:id="@+id/segundoproducto"
+                android:layout_width="173dp"
+                android:layout_height="169dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="214dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="145dp"
+                android:background="@drawable/tratamiento"
+                />
+            <!-- Tratamientos -->
+            <TextView
+                android:id="@+id/tratamiento"
+                android:layout_width="95dp"
+                android:layout_height="18dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="243dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="327dp"
+                android:text="Tratamiento"
+                android:gravity="center_horizontal|top" />
+            <!--tercer producto-->
+            <ImageView
+                android:id="@+id/tercerproducto"
+                android:layout_width="173dp"
+                android:layout_height="169dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="366dp"
+                android:background="@drawable/acondicionador" />
+            <TextView
+                android:id="@+id/aconditiona"
+                android:layout_width="109dp"
+                android:layout_height="18dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="45dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="548dp"
+                android:text="Acondicionador"
+                android:gravity="center_horizontal|top"
+                />
+            <!--Cuarta categoria-->
+            <ImageView
+                android:id="@+id/cuarto"
+                android:layout_width="173dp"
+                android:layout_height="169dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="214dp"
+                android:layout_marginTop="366dp"
+                android:background="@drawable/nails" />
+            <!-- Acrilicos -->
+            <TextView
+                android:id="@+id/acrilicos"
+                android:layout_width="63dp"
+                android:layout_height="18dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="259dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="548dp"
+                android:text="acrilicos"
+                android:gravity="center_horizontal|top"
+                />
+
+            <ImageView
+                android:id="@+id/rectangle_6"
+                android:layout_width="173dp"
+                android:layout_height="169dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="587dp"
+                android:background="@drawable/cremas" />
+            <TextView
+                android:id="@+id/cremas"
+                android:layout_width="55dp"
+                android:layout_height="18dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="72dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="769dp"
+                android:text="cremas"
+                android:gravity="center_horizontal|top"
+                />
+            <ImageView
+                android:id="@+id/rectangles"
+                android:layout_width="173dp"
+                android:layout_height="169dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="214dp"
+                android:layout_marginTop="587dp"
+                android:background="@drawable/lociones"/>
+            <TextView
+                android:id="@+id/sa"
+                android:layout_width="55dp"
+                android:layout_height="18dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="214dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="769dp"
+                android:text="cremas"
+                android:gravity="center_horizontal|top"
+                />
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+    <include
+        layout= "@layout/app_bar_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <!--BARRA DE NAVEGACION-->
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header_main"
+        app:menu="@menu/activity_main_drawer"
+        >
+
+    </com.google.android.material.navigation.NavigationView>
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

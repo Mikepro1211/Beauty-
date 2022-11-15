@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "12643094181",
+    "project_id": "beautyapp-1345f",
+    "storage_bucket": "beautyapp-1345f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12643094181:android:458e95d797c28ba997474c",
+        "android_client_info": {
+          "package_name": "sv.edu.udb.beautyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "12643094181-tkus834hrmvgt73bftl1kvkhuh7ii2uu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW9DWMVVVr4oqphw9THT8HAtAfFump7Pk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "12643094181-tkus834hrmvgt73bftl1kvkhuh7ii2uu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

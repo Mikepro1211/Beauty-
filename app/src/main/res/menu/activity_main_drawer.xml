@@ -16,6 +16,9 @@
         <item android:id="@+id/prueba"
             android:icon="@drawable/ic_launcher_foreground"
             android:title="Facturacion"/>
+        <item android:id="@+id/logout"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Cerrar Sesion"/>
 
     </group>
 

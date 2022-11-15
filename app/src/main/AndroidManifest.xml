@@ -11,11 +11,24 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_beauty"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Design.Light.NoActionBar"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".Facturacion"
+            android:exported="false"
+            android:theme="@style/Theme.BeautyApp"/>
+        <activity
+            android:name=".Productos"
+            android:exported="false"
+            android:theme="@style/Theme.BeautyApp"/>
+        <activity
+            android:name=".Sucursale"
+            android:exported="false"
+            android:theme="@style/Theme.BeautyApp"/>
+        <activity
             android:name=".RegistrarCita"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.BeautyApp"/>
         <activity
             android:name=".Registro"
             android:exported="false"

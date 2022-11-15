@@ -11,12 +11,12 @@ import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import com.google.android.material.navigation.NavigationView
 
-class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
+class Productos : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
     private lateinit var  drawer: DrawerLayout
     private lateinit var  toogle: ActionBarDrawerToggle
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_productos)
         val toolbar: androidx.appcompat.widget.Toolbar= findViewById(R.id.toolbar_main)
         setSupportActionBar(toolbar)
         drawer=findViewById(R.id.drawer_layout)
@@ -26,7 +26,6 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         supportActionBar?.setHomeButtonEnabled(true)
         val navigationView: NavigationView = findViewById(R.id.nav_view)
         navigationView.setNavigationItemSelectedListener (this)
-
     }
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when(item.itemId){
@@ -41,16 +40,15 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
             }
             R.id.nav_item_three -> {
-                val intent =  Intent(this,Sucursale::class.java)
+                val  intent =  Intent (this,Sucursale::class.java)
                 startActivity(intent)
             }
             R.id.nav_item_fourth -> {
-                val intent =  Intent(this,Productos::class.java)
+                val intent  =  Intent(this,Productos::class.java)
                 startActivity(intent)
-
             }
             R.id.prueba -> {
-                val intent =  Intent(this,Facturacion::class.java)
+                val intent  =  Intent(this,Facturacion::class.java)
                 startActivity(intent)
             }
             R.id.logout -> {
@@ -58,7 +56,6 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 val intent  =  Intent(this,Login::class.java)
                 startActivity(intent)
             }
-
         }
         drawer.closeDrawer(GravityCompat.START)
         return true

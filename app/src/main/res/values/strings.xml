@@ -10,4 +10,11 @@
     <string name="btnRegistrar">Registrar</string>
     <string name="tengoCuenta">Ya tengo Cuenta</string>
     <string name="NoTengoCuenta">¿No tienes cuenta?</string>
+
+    <!--Main text-->
+    <string name="servicicios">Servicios</string>
+    <string name="permanente">Permanente</string>
+    <!--Sucursales-->
+    <string name="Sucursales">Sucursales</string>
+    <string name="sucursales1">Centro Comercial Bambu</string>
 </resources>

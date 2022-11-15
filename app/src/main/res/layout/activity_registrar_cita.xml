@@ -6,6 +6,122 @@
     android:layout_height="match_parent"
     android:id="@+id/drawer_layout"
     tools:context=".RegistrarCita">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="54dp">
+
+        <!-- Agendar cita -->
+        <TextView
+            android:id="@+id/agendar_cit"
+            android:layout_width="145dp"
+            android:layout_height="28dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="122dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:text="Agendar Cita"
+            android:textSize="20dp"
+            android:textColor="@color/beautyappColor"
+            android:gravity="center_horizontal|top"
+            />
+
+        <EditText
+            android:id="@+id/etname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="75dp"
+            android:ems="17"
+            android:hint="Nombre"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etcorreo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="140dp"
+            android:ems="17"
+            android:hint="Correo electronico"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etnumero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="205dp"
+            android:ems="17"
+            android:hint="Numero"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etservicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="270dp"
+            android:ems="17"
+            android:hint="Servicio"
+            android:inputType="text" />
+        <TextView
+            android:id="@+id/txtSucursal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="350dp"
+            android:ems="17"
+            android:hint="Selecciona Sucursal"
+             />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="385dp"
+            android:layout_marginLeft="45dp"
+            android:autofillHints="Selecciona Sucursal"/>
+
+        <EditText
+            android:id="@+id/etfecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="450dp"
+            android:clickable="false"
+            android:ems="17"
+            android:focusable="false"
+            android:hint="Fecha"
+            android:inputType="date" />
+
+        <EditText
+            android:id="@+id/ethora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="510dp"
+            android:ems="17"
+            android:hint="Hora"
+            android:inputType="date"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/agregarcita"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="217dp"
+            android:layout_marginTop="630dp"
+            android:background="@color/purple_700"
+            android:text="Enviar"
+            android:textColor="@color/black" />
+
+
+
+    </RelativeLayout>
+
     <include
         layout= "@layout/app_bar_main"
         android:layout_width="match_parent"
